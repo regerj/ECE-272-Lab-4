@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/QuartusPrime
+vAdder
+Z0 !s110 1589516988
+!i10b 1
+!s100 g2gcL6aLbPm8QLo4PNzUm0
+ILIo_O3U=hmQ0`N72fJ?YS3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ModelSim
+w1589503185
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+Z3 L0 20
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1589516988.000000
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vECE_272_Lab_2_Full_Adder
+R0
+!i10b 1
+!s100 Pd6gddJmgYQ0IFJ]l24^P3
+Ib@0olz3A;`A164Y1m1oNB2
+R1
+R2
+w1589503253
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Full_Adder.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Full_Adder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Full_Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Full_Adder.v|
+!i113 1
+R6
+R7
+n@e@c@e_272_@lab_2_@full_@adder
+vECE_272_Lab_2_Half_Adder
+R0
+!i10b 1
+!s100 <Oh7hGHVNio@Iall<U`7?1
+ISfgmoZROS?2?UHNAmak>O1
+R1
+R2
+w1589503432
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Half_Adder.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Half_Adder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Half_Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_2_Half_Adder.v|
+!i113 1
+R6
+R7
+n@e@c@e_272_@lab_2_@half_@adder
+vECE_272_Lab_3
+R0
+!i10b 1
+!s100 _A;CId2@]n]AcEcHhgS4;3
+ITU;_TeFnh:9V:dVY0UgnM2
+R1
+R2
+w1589503231
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_3.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_3.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_3.v|
+!i113 1
+R6
+R7
+n@e@c@e_272_@lab_3
+vECE_272_Lab_4
+R0
+!i10b 1
+!s100 e?1;BTc8@;FdhP7dz4_4D1
+I5C`0057l3Xz>AGh0IIGTd2
+R1
+R2
+w1589516956
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v|
+!i113 1
+R6
+R7
+n@e@c@e_272_@lab_4
+vFrequency_Divider
+R0
+!i10b 1
+!s100 cj4WKC<Vj70V]KQWWl?IS3
+I54Rm0gi>iinoZdblZiNGk2
+R1
+R2
+w1589516162
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Frequency_Divider.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Frequency_Divider.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Frequency_Divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Frequency_Divider.v|
+!i113 1
+R6
+R7
+n@frequency_@divider
+vRegister
+R0
+!i10b 1
+!s100 >IJ<=dDHl9EJXSPnehPL40
+ITjkWGd8jQBO3oBLnk4<WC0
+R1
+R2
+w1589503326
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Register.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Register.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Register.v|
+!i113 1
+R6
+R7
+n@register
+vTest_CLK_DIV
+!s110 1589516989
+!i10b 1
+!s100 eRz3JQ<ALjAg^zdhLNUg@3
+IdDB<EDEVS_QPRZR?PiVk@0
+R1
+R2
+w1589514938
+8C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Test_CLK_DIV.v
+FC:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Test_CLK_DIV.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1589516989.000000
+!s107 C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Test_CLK_DIV.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Test_CLK_DIV.v|
+!i113 1
+R6
+R7
+n@test_@c@l@k_@d@i@v

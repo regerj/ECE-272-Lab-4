@@ -1,0 +1,88 @@
+vsim -gui work.ECE_272_Lab_4
+# vsim -gui work.ECE_272_Lab_4 
+# Start time: 12:31:21 on May 22,2020
+# Loading work.ECE_272_Lab_4
+# Loading work.Adder
+# Loading work.ECE_272_Lab_2_Full_Adder
+# Loading work.ECE_272_Lab_2_Half_Adder
+# Loading work.ECE_272_Lab_3
+# Loading work.Register
+# Loading work.Frequency_Divider
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Missing connection for port 'Z4'.
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst25 File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Missing connection for port 'Z4'.
+add wave -position insertpoint  \
+sim:/ECE_272_Lab_4/FLOW \
+sim:/ECE_272_Lab_4/FHIGH \
+sim:/ECE_272_Lab_4/CLK \
+sim:/ECE_272_Lab_4/CLRN \
+sim:/ECE_272_Lab_4/Aa \
+sim:/ECE_272_Lab_4/Ab \
+sim:/ECE_272_Lab_4/Ac \
+sim:/ECE_272_Lab_4/Ad \
+sim:/ECE_272_Lab_4/Ae \
+sim:/ECE_272_Lab_4/Af \
+sim:/ECE_272_Lab_4/Ag \
+sim:/ECE_272_Lab_4/Ba \
+sim:/ECE_272_Lab_4/Bb \
+sim:/ECE_272_Lab_4/Bc \
+sim:/ECE_272_Lab_4/Bd \
+sim:/ECE_272_Lab_4/Be \
+sim:/ECE_272_Lab_4/Bf \
+sim:/ECE_272_Lab_4/Bg
+force -freeze sim:/ECE_272_Lab_4/FLOW 0 0
+force -freeze sim:/ECE_272_Lab_4/FHIGH 1 0
+force -freeze sim:/ECE_272_Lab_4/CLRN 0 0
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns} -can 10000000010
+run
+restart
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Missing connection for port 'Z4'.
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst25 File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Missing connection for port 'Z4'.
+force -freeze sim:/ECE_272_Lab_4/FLOW 0 0
+force -freeze sim:/ECE_272_Lab_4/FHIGH 1 0
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns} -can 10000000010
+force -freeze sim:/ECE_272_Lab_4/CLRN 1 0
+run
+force -freeze sim:/ECE_272_Lab_4/CLRN 0 0
+run
+restart
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Missing connection for port 'Z4'.
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst25 File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Missing connection for port 'Z4'.
+force -freeze sim:/ECE_272_Lab_4/FLOW 0 0
+force -freeze sim:/ECE_272_Lab_4/FHIGH 1 0
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns} -can 10000000010
+force -freeze sim:/ECE_272_Lab_4/CLRN 1 0
+run
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns} -can 10000000010
+force -freeze sim:/ECE_272_Lab_4/CLRN 0 0
+run
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+restart
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(87): [TFMPC] - Missing connection for port 'Z4'.
+# ** Warning: (vsim-3017) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /ECE_272_Lab_4/b2v_inst25 File: C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/Adder.v
+# ** Warning: (vsim-3722) C:/Users/Jacob/Desktop/Quartus Prime Projects/ECE 272 Lab 4/HDL Files/ECE_272_Lab_4.v(161): [TFMPC] - Missing connection for port 'Z4'.
+force -freeze sim:/ECE_272_Lab_4/FLOW 0 0
+force -freeze sim:/ECE_272_Lab_4/FHIGH 1 0
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/ECE_272_Lab_4/CLRN 1 0
+run
+force -freeze sim:/ECE_272_Lab_4/CLK 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/ECE_272_Lab_4/CLRN 0 0
+run
+# End time: 13:45:09 on May 22,2020, Elapsed time: 1:13:48
+# Errors: 0, Warnings: 18

@@ -1,0 +1,1244 @@
+|ECE_272_Lab_4
+Aa <= ECE_272_Lab_3:inst10.a
+FLOW => ECE_272_Lab_3:inst10.X
+FLOW => Adder:inst.B
+FLOW => ECE_272_Lab_3:inst24.X
+FLOW => Adder:inst25.B
+FLOW => ECE_272_Lab_3:inst31.X
+FLOW => Adder:inst32.B
+FLOW => ECE_272_Lab_3:inst35.X
+FLOW => Adder:inst36.B
+FLOW => ECE_272_Lab_3:inst39.X
+FLOW => Adder:inst40.B
+FLOW => ECE_272_Lab_3:inst43.X
+FLOW => Adder:inst44.B
+FHIGH => Adder:inst.C
+FHIGH => inst30.IN1
+FHIGH => Adder:inst25.C
+FHIGH => Adder:inst32.C
+FHIGH => Adder:inst36.C
+FHIGH => Adder:inst40.C
+FHIGH => Adder:inst44.C
+CLK => Frequency_Divider:inst3.CLK
+CLRN => inst4.IN0
+CLRN => inst1.IN1
+CLRN => inst46.IN1
+CLRN => inst47.IN0
+CLRN => inst48.IN0
+CLRN => inst49.IN0
+Ab <= ECE_272_Lab_3:inst10.b
+Ac <= ECE_272_Lab_3:inst10.c
+Ad <= ECE_272_Lab_3:inst10.d
+Ae <= ECE_272_Lab_3:inst10.e
+Af <= ECE_272_Lab_3:inst10.f
+Ag <= ECE_272_Lab_3:inst10.g
+Ba <= ECE_272_Lab_3:inst24.a
+Bb <= ECE_272_Lab_3:inst24.b
+Bc <= ECE_272_Lab_3:inst24.c
+Bd <= ECE_272_Lab_3:inst24.d
+Be <= ECE_272_Lab_3:inst24.e
+Bf <= ECE_272_Lab_3:inst24.f
+Bg <= ECE_272_Lab_3:inst24.g
+Ca <= ECE_272_Lab_3:inst31.a
+Cb <= ECE_272_Lab_3:inst31.b
+Cc <= ECE_272_Lab_3:inst31.c
+Cd <= ECE_272_Lab_3:inst31.d
+Ce <= ECE_272_Lab_3:inst31.e
+Cf <= ECE_272_Lab_3:inst31.f
+Cg <= ECE_272_Lab_3:inst31.g
+Da <= ECE_272_Lab_3:inst35.a
+Db <= ECE_272_Lab_3:inst35.b
+Dc <= ECE_272_Lab_3:inst35.c
+Dd <= ECE_272_Lab_3:inst35.d
+De <= ECE_272_Lab_3:inst35.e
+Df <= ECE_272_Lab_3:inst35.f
+Dg <= ECE_272_Lab_3:inst35.g
+Ea <= ECE_272_Lab_3:inst39.a
+Eb <= ECE_272_Lab_3:inst39.b
+Ec <= ECE_272_Lab_3:inst39.c
+Ed <= ECE_272_Lab_3:inst39.d
+Ee <= ECE_272_Lab_3:inst39.e
+Ef <= ECE_272_Lab_3:inst39.f
+Eg <= ECE_272_Lab_3:inst39.g
+Fa <= ECE_272_Lab_3:inst43.a
+Fb <= ECE_272_Lab_3:inst43.b
+Fc <= ECE_272_Lab_3:inst43.c
+Fd <= ECE_272_Lab_3:inst43.d
+Fe <= ECE_272_Lab_3:inst43.e
+Ff <= ECE_272_Lab_3:inst43.f
+Fg <= ECE_272_Lab_3:inst43.g
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst10
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst21
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
+|ECE_272_Lab_4|Frequency_Divider:inst3
+ZCLK <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst57.ACLR
+CLRN => inst55.ACLR
+CLRN => inst53.ACLR
+CLRN => inst51.ACLR
+CLRN => inst48.ACLR
+CLRN => inst47.ACLR
+CLRN => inst45.ACLR
+CLRN => inst43.ACLR
+CLRN => inst41.ACLR
+CLRN => inst39.ACLR
+CLRN => inst37.ACLR
+CLRN => inst35.ACLR
+CLRN => inst33.ACLR
+CLRN => inst31.ACLR
+CLRN => inst29.ACLR
+CLRN => inst22.ACLR
+CLRN => inst21.ACLR
+CLRN => inst20.ACLR
+CLRN => inst19.ACLR
+CLRN => inst18.ACLR
+CLRN => inst17.ACLR
+CLRN => inst16.ACLR
+CLK => inst16.CLK
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst24
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst25|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst22
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst31
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst32|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst29
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst35
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst36|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst34
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst39
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst40|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst38
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
+|ECE_272_Lab_4|ECE_272_Lab_3:inst43
+a <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst29.IN0
+A1 => inst17.IN0
+A1 => inst4.IN0
+A1 => inst15.IN0
+A1 => inst24.IN0
+A1 => inst25.IN1
+A1 => inst12.IN1
+A1 => inst27.IN0
+A1 => inst10.IN0
+A3 => inst31.IN0
+A3 => inst4.IN1
+A3 => inst20.IN1
+A3 => inst22.IN1
+A3 => inst3.IN0
+A3 => inst5.IN0
+A3 => inst39.IN1
+A3 => inst24.IN1
+A3 => inst13.IN1
+A2 => inst1.IN0
+A2 => inst17.IN1
+A2 => inst30.IN0
+A2 => inst20.IN0
+A2 => inst39.IN2
+A2 => inst26.IN0
+A2 => inst25.IN0
+A2 => inst7.IN0
+A2 => inst11.IN1
+A2 => inst9.IN0
+A0 => inst28.IN0
+A0 => inst19.IN0
+A0 => inst18.IN0
+A0 => inst22.IN0
+A0 => inst2.IN0
+A0 => inst6.IN0
+A0 => inst12.IN0
+A0 => inst11.IN0
+A0 => inst13.IN0
+b <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X => inst33.IN0
+X => inst34.IN0
+X => inst37.IN0
+X => inst36.IN0
+c <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44
+Z0 <= ECE_272_Lab_2_Full_Adder:inst.Sum
+C => ECE_272_Lab_2_Full_Adder:inst.Cin
+A0 => ECE_272_Lab_2_Full_Adder:inst.A
+B => ECE_272_Lab_2_Full_Adder:inst.B
+B => ECE_272_Lab_2_Full_Adder:inst3.B
+B => ECE_272_Lab_2_Full_Adder:inst4.B
+B => ECE_272_Lab_2_Full_Adder:inst5.B
+Z1 <= ECE_272_Lab_2_Full_Adder:inst3.Sum
+A1 => ECE_272_Lab_2_Full_Adder:inst3.A
+Z2 <= ECE_272_Lab_2_Full_Adder:inst4.Sum
+A2 => ECE_272_Lab_2_Full_Adder:inst4.A
+Z3 <= ECE_272_Lab_2_Full_Adder:inst5.Sum
+A3 => ECE_272_Lab_2_Full_Adder:inst5.A
+Z4 <= ECE_272_Lab_2_Full_Adder:inst5.Cout
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst3
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst3|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst4
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst4|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst5
+Sum <= ECE_272_Lab_2_Half_Adder:inst.Z
+Cin => ECE_272_Lab_2_Half_Adder:inst.A
+A => ECE_272_Lab_2_Half_Adder:inst1.A
+B => ECE_272_Lab_2_Half_Adder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Adder:inst44|ECE_272_Lab_2_Full_Adder:inst5|ECE_272_Lab_2_Half_Adder:inst1
+Z <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+C <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ECE_272_Lab_4|Register:inst42
+Z0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst.ACLR
+CLRN => inst1.ACLR
+CLRN => inst2.ACLR
+CLRN => inst3.ACLR
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+A0 => inst.DATAIN
+Z1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.DATAIN
+Z2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.DATAIN
+Z3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.DATAIN
+
+
