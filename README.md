@@ -1,3 +1,5 @@
+_**This lab instruction set is the property of Oregon State University, I claim no credit to these instructions, only to my solution to the lab.**_
+
 # ECE 272 Section 4: Counters
 ### 4.1 Background Information
 Section 3 developed a design to drive a single digit on a seven-segment display. Section 4 will go further than that to use a counter to drive all 6 digits of the display. This will be done by incrementing the data stored in a register made of D-Flip-Flops. Students will use an on-board switch or button to drive the counter. Students will need to display 24 bits as 6 digits of Hexidecimal on the seven-segment displays.
