@@ -1,4 +1,4 @@
-_**This lab instruction set is the property of Oregon State University, I claim no credit to these instructions, only to my solution to the lab.**_
+_**This lab instruction set is the property of Oregon State University, I claim no credit to these instructions aside from manually formatting it to appear well on .md files, only to my solution to the lab.**_
 
 # ECE 272 Section 4: Counters
 ### 4.1 Background Information
